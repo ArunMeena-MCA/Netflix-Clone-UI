@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+}
+.main{
+    background-image: url(Assets/images/bkgrimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 130% 180%; */
+    /* background-size: max(1200px,100vm); */
+    min-height: 43.75rem;
+    /* height: 100%; */
+    /* width: 100vm; */
+    top: 0;
+    left: 0;
+    position: relative;
+    box-shadow: inset rgb(0 0 0 / 50%) 0px 0px 200px 20px;;
+}
+
+nav{
+    display: flex;
+    max-width: 77vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 1.7%;
+    position: relative;
+    z-index: 10;
+}
+
+nav div{
+    display:  flex;
+    align-items: center;
+    width: 20%;
+}
+
+nav span img{
+    width: 10rem;
+    height: 2.5rem;
+}
+
+nav button:first-child{
+    display: flex;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    font-size: 100%;
+    /* font-family: 'Martel sans'; */
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav button:last-child{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    font-size: 100%;
+    /* font-family: 'Martel sans'; */
+} 
+
+.hero{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box{
+    min-height: 43.75rem;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main .text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* font-family: 'Martel sans'; */
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 2.7rem;
+    margin-top: 17%;
+    font-weight:900;
+}
+.main h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem; 
+    font-weight:400;
+}
+.main h3{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    font-weight:400;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    min-height: 16px;
+    min-width: 16px;
+    height: 3.7rem;
+    margin-top: 2%;
+}
+
+.submit input{
+    border: 1px solid rgb(162, 160, 160);
+    border-radius: 5px;
+    background-color: rgba(22, 22, 22, 0.7);
+    color: inherit;
+    padding: 0.5rem 1rem;
+    padding-right: 12rem;
+    margin-right: 1%;
+}
+
+.submit button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 3px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    /* font-family: 'Martel sans'; */
+    font-weight: bold;
+    font-size: 150%;
+}
+
+::placeholder{
+    color: white;
+    opacity: .7;
+    font-size: medium;
+    width: fit-content;
+}
+
+.strip{
+    background-color: rgb(35, 35, 35);
+    height: 0.5rem;
+    width: 100%;
+    position: relative;
+}
+
+section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+    width: 100rem;
+}
+
+section .text{
+    max-width: 31rem;
+    position: relative;
+}
+
+section .text h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+section .text h2{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.first .Tv{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    max-width: 30rem;
+    position: relative;
+}
+
+.first .Tv img{
+    z-index: 10;
+    width: 100%;
+}
+
+.first .Tv video{
+    top: 20%;
+    left: 13%;
+    width: 75%;
+    position: absolute;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+    width: 100rem;
+}
+
+.second .Tv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.second .Tv .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2%;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    min-width: 50%;
+    width: 50%;
+    bottom: 8%;
+    left: 22%;
+}
+
+.second .img-one{
+    width: 95%;
+}
+.second .hero .one{
+    font-size: 100%;
+    font-weight: 600;
+    margin-left: 1rem;
+    position: relative;
+}
+.second .hero .two{
+    font-size: 100%;
+    color: #0071eb;
+    margin-left: 1rem;
+    position: relative;
+}
+.second .Tv .hero img{
+    height: 4.5rem;
+}
+
+.third .Tv img{
+    width: 30rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.third .Tv video{
+    width: 65%;
+    top: 15%;
+    left: 16%;
+}
+
+.fifth{
+    width: 100%;
+}
+
+.fifth h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.fifth ul{
+    margin-top: 2rem;
+}
+
+.fifth ul h2{
+    margin-top: 0.5rem;
+}
+
+.fifth ul h2 button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(45,45,45);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5rem;
+    width:100%;
+    padding: 1rem;
+}
+
+.fifth .txt{
+    width: 100%;
+}
+
+.fifth .txt h3{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    font-weight: normal;
+}
+
+.last{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+}
+
+.last h2{
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+.last ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.last ul button{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1rem;
+    margin-right: 6rem;
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+
+.last .btn button{
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    border: 0.5px solid rgb(84, 84, 84);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.last h2:last-child{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
